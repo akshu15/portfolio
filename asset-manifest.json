@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.fc5cebcf.css",
+    "main.js": "/portfolio/static/js/main.f869f29b.js",
+    "static/media/akshata.png": "/portfolio/static/media/akshata.a1253d6d800f7c530895.png",
+    "static/media/RESUME_AKSHATA_SINGH.pdf": "/portfolio/static/media/RESUME_AKSHATA_SINGH.39bd07e32b0af66f3b2e.pdf",
+    "static/media/img.jpeg": "/portfolio/static/media/img.1cedd1842f45d7422c34.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.fc5cebcf.css.map": "/portfolio/static/css/main.fc5cebcf.css.map",
+    "main.f869f29b.js.map": "/portfolio/static/js/main.f869f29b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc5cebcf.css",
+    "static/js/main.f869f29b.js"
+  ]
+}
