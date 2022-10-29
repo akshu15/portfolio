@@ -2,6 +2,8 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/akshata.png'
 import {HiCode, HiUsers, HiFolderOpen} from 'react-icons/hi'
+import {IoIosTimer} from 'react-icons/io'
+import {BsStars, BsPersonCheckFill} from 'react-icons/bs'
 
 const About = () => {
   return (
@@ -19,26 +21,30 @@ const About = () => {
         <div className='about__content'>
           <div className='about__cards'>
             <article className='about__card'>
-              <HiCode className='about__icon'/>
-              <h5>Experience</h5>
-              <small>My Work Experience</small>
+              <IoIosTimer className='about__icon'/>
+              <h5>On Time</h5>
+              <small>Good Time management</small>
             </article>
 
             <article className='about__card'>
-              <HiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>My Work Experience</small>
+              <BsStars className='about__icon'/>
+              <h5>Clean Work</h5>
+              <small>Write Clean code</small>
             </article>
 
             <article className='about__card'>
-              <HiFolderOpen className='about__icon'/>
-              <h5>Projects</h5>
-              <small>Some projects</small>
+              <BsPersonCheckFill className='about__icon'/>
+              <h5>Client Satisfaction</h5>
+              <small>Client comes first</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos velit minus ex, iste sequi repellendus ut animi reiciendis numquam, qui sit, consequuntur quasi molestiae laborum illo reprehenderit non debitis explicabo.
+            <h3>Hi there!</h3> I'm Akshata Singh, a software engineer from India. 
+            I have a passion for building things that live on the internet, whether that be websites, applications, or anything in between. 
+            My goal is to always write clean code and to deliver over the top user experience.
+            I have an accomplisment history of working on team projects.
+            I have also created some projects on my own, like this portfolio website.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
