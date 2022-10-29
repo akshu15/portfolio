@@ -27,11 +27,6 @@ const Contact = () => {
             <h4>Email</h4>
             <a href='mailto:akshatasingh0398@gmail.com' target='_blank'>Send a message</a>
           </article>
-
-          <article className='contact__option'>
-            <MdCall className='contact__option-icon'/>
-            <h5>+1234567899</h5>
-          </article>
         </div>
 
         {/* FORM */}
