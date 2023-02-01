@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0aa34db5.css",
-    "main.js": "/portfolio/static/js/main.dd249e35.js",
+    "main.css": "/portfolio/static/css/main.3397b0d8.css",
+    "main.js": "/portfolio/static/js/main.afb23806.js",
     "static/media/akshata.png": "/portfolio/static/media/akshata.a1253d6d800f7c530895.png",
     "static/media/awsiotcloud.png": "/portfolio/static/media/awsiotcloud.37da7832c087a435949a.png",
+    "static/media/akshata1.PNG": "/portfolio/static/media/akshata1.e41ca3c52ccb403341a6.PNG",
     "static/media/ml.jpeg": "/portfolio/static/media/ml.1c9dd128c5e9c42c6c43.jpeg",
     "static/media/blockchain.jpeg": "/portfolio/static/media/blockchain.d8d19058211c019a500d.jpeg",
-    "static/media/RESUME_AKSHATA_SINGH.pdf": "/portfolio/static/media/RESUME_AKSHATA_SINGH.39bd07e32b0af66f3b2e.pdf",
+    "static/media/RESUME_AKSHATA_SINGH.pdf": "/portfolio/static/media/RESUME_AKSHATA_SINGH.d1885ca1861448a51481.pdf",
     "static/media/rasanlu.png": "/portfolio/static/media/rasanlu.b8d1ce5dfdca76dfc16a.png",
     "index.html": "/portfolio/index.html",
-    "main.0aa34db5.css.map": "/portfolio/static/css/main.0aa34db5.css.map",
-    "main.dd249e35.js.map": "/portfolio/static/js/main.dd249e35.js.map"
+    "main.3397b0d8.css.map": "/portfolio/static/css/main.3397b0d8.css.map",
+    "main.afb23806.js.map": "/portfolio/static/js/main.afb23806.js.map"
   },
   "entrypoints": [
-    "static/css/main.0aa34db5.css",
-    "static/js/main.dd249e35.js"
+    "static/css/main.3397b0d8.css",
+    "static/js/main.afb23806.js"
   ]
 }
