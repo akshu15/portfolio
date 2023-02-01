@@ -1,12 +1,12 @@
 import React from 'react'
 import './footer.css'
-import {AiOutlineGithub} from 'react-icons/ai'
+import {AiOutlineGithub, AiFillHeart} from 'react-icons/ai'
 import {FaLinkedinIn} from 'react-icons/fa'
 
 const Footer = () => {
   return (
     <footer id='footer'>
-      <a href='#' className='footer__logo'>ME</a>
+      {/* <a href='#' className='footer__logo'>ME</a> */}
 
       <ul className='permalinks'>
         <li><a href='#'></a></li>
@@ -17,12 +17,12 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href='https://www.linkedin.com/in/akshata-singh/' target="_blank"><FaLinkedinIn/></a>
-        <a href='https://github.com/akshu15' target="_blank"><AiOutlineGithub/></a>
+        <a href='https://www.linkedin.com/in/akshata-singh/' target="_blank" rel = "noreferrer"><FaLinkedinIn/></a>
+        <a href='https://github.com/akshu15' target="_blank" rel = "noreferrer"><AiOutlineGithub/></a>
       </div>
 
       <div className='footer__copyright'>
-        <small>&copy; Akshata Singh. All rights reserved </small>
+        <small>Made with <AiFillHeart/> by Akshata Singh</small>
       </div>
     </footer>
   )
