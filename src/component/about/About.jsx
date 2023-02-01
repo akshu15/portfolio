@@ -28,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <BsStars className='about__icon'/>
               <h5>Clean Work</h5>
-              <small>Write Clean code</small>
+              <small>Focus on writing Clean code</small>
             </article>
 
             <article className='about__card'>
