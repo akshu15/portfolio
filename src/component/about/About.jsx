@@ -1,7 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/akshata.png'
-import {HiCode, HiUsers, HiFolderOpen} from 'react-icons/hi'
+import ME from '../../assets/akshata1.PNG'
 import {IoIosTimer} from 'react-icons/io'
 import {BsStars, BsPersonCheckFill} from 'react-icons/bs'
 
@@ -14,7 +13,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={ME} alt='About Image' />
+            <img src={ME} alt='Akshata Singh' />
           </div>
         </div>
 
@@ -29,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <BsStars className='about__icon'/>
               <h5>Clean Work</h5>
-              <small>Write Clean code</small>
+              <small>Focus on writing Clean code</small>
             </article>
 
             <article className='about__card'>
@@ -40,11 +39,10 @@ const About = () => {
           </div>
 
           <p>
-            <h3>Hi there!</h3> I'm Akshata Singh, a software engineer from India. 
-            I have a passion for building things that live on the internet, whether that be websites, applications, or anything in between. 
-            My goal is to always write clean code and to deliver over the top user experience.
-            I have an accomplisment history of working on team projects.
-            I have also created some projects on my own, like this portfolio website.
+            <h3>Hi there!</h3> I am a Self-motivated Software Engineer with experience in developing Software Applications.
+            I am Confident and a Quick Learner with curiosity to expand knowledge and stay current with the latest technologies and industry trends. 
+            I work well both as an individual contributor and also a team member with an accomplishment history of working on team projects.
+            I have also created some projects on my own, like this portfolio website (using React).
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>

@@ -72,7 +72,7 @@ const Portfolio = () => {
                 {data.content}
                 </div>
                 <div>
-                <a href={data.demo} target='_blank' className='portfolio__item-cta'>Demo
+                <a href={data.demo} target='_blank' rel = "noreferrer" className='portfolio__item-cta'>Demo
                 <MdArrowForwardIos className='portfolio__item-icon'/></a>
                 </div>
               </div>

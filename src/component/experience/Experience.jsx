@@ -3,7 +3,7 @@ import './experience.css'
 import {AiFillHtml5} from 'react-icons/ai'
 import {DiCss3, DiJavascript1} from 'react-icons/di'
 import {FaBootstrap, FaReact, FaPython,FaNodeJs} from 'react-icons/fa'
-import {SiTailwindcss, SiPhp, SiMongodb} from 'react-icons/si'
+import {SiTailwindcss, SiPhp, SiMongodb, SiPostgresql} from 'react-icons/si'
 import {GrMysql} from 'react-icons/gr'
 
 const Experience = () => {
@@ -73,10 +73,27 @@ const Experience = () => {
         <div className='experience__backend'>
           <h3>Backend Development</h3>
           <div className='experience__content'>
+
+          <article className='experience__details'>
+              <SiPhp className='experience__details-icon'/>
+              <div>
+                <h4>PHP</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
             <article className='experience__details'>
               <FaNodeJs className='experience__details-icon'/>
               <div>
                 <h4>Node JS</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <FaPython className='experience__details-icon'/>
+              <div>
+                <h4>Python</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -90,14 +107,6 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <SiPhp className='experience__details-icon'/>
-              <div>
-                <h4>PHP</h4>
-                <small className='text-light'>Experienced</small>
-              </div>
-            </article>
-
-            <article className='experience__details'>
               <GrMysql className='experience__details-icon'/>
               <div>
                 <h4>MySQL</h4>
@@ -106,12 +115,13 @@ const Experience = () => {
             </article>
 
             <article className='experience__details'>
-              <FaPython className='experience__details-icon'/>
+              <SiPostgresql className='experience__details-icon'/>
               <div>
-                <h4>Python</h4>
+                <h4>PostgreSQL</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+
           </div>
         </div>
       </div>
